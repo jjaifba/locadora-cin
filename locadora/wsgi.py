@@ -11,6 +11,10 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
+<<<<<<< HEAD
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'locadora.settings')
+=======
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'locadora.settings.development')
+>>>>>>> upstream/master
 
 application = get_wsgi_application()
